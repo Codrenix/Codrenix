@@ -36,7 +36,8 @@ Name: ${name}
 Email: ${email}
 Subject: ${subject}
 
-Message:${message}
+Message:
+${message}`;
 
   const url = `https://wa.me/${919552477146}?text=${encodeURIComponent(text)}`;
   window.open(url, "_blank");

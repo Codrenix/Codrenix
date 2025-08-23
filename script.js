@@ -16,11 +16,11 @@ themeBtn.addEventListener("click", () => {
 document.getElementById("year").textContent = new Date().getFullYear();
 
 // WhatsApp helpers
-const WHATSAPP_NUMBER = "918975570113"; // 91 + your number
+const WHATSAPP_NUMBER = "919552477146"; // 91 + your number
 
 // Direct WhatsApp button (quick hello)
 const directBtn = document.getElementById("whatsappDirect");
-directBtn.href = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Hi! I saw your portfolio and want to discuss a project.")}`;
+directBtn.href = `https://wa.me/${919552477146}?text=${encodeURIComponent("Hi! I saw your portfolio and want to discuss a project.")}`;
 
 // Contact form -> WhatsApp
 const form = document.getElementById("contactForm");
@@ -39,6 +39,6 @@ Subject: ${subject}
 Message:
 ${message}`;
 
-  const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
+  const url = `https://wa.me/${919552477146}?text=${encodeURIComponent(text)}`;
   window.open(url, "_blank");
 });

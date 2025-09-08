@@ -42,3 +42,15 @@ ${message}`;
   const url = `https://wa.me/${919552477146}?text=${encodeURIComponent(text)}`;
   window.open(url, "_blank");
 });
+
+// Intro video handler
+const introVideo = document.getElementById("introVideo");
+const introScreen = document.getElementById("intro");
+const mainContent = document.getElementById("mainContent");
+
+if (introVideo) {
+  introVideo.addEventListener("ended", () => {
+    introScreen.style.display = "none";
+    mainContent.style.display = "block";
+  });
+}
